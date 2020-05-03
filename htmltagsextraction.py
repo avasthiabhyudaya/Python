@@ -26,5 +26,5 @@ rep = int(input("Repetitions: "))
 pos = int(input("Position: "))
 for i in range(rep):
     url=name(pos,url)
-a=re.findall("_([A-Za-z]+)\.html",url)
-print(str(a))
+b=re.findall("_([A-Za-z]+)\.html",url)
+print(str(b))
