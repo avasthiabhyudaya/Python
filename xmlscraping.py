@@ -15,5 +15,5 @@ tree = ET.fromstring(xml)
 lst = tree.findall(".//count")
 for count in lst:
     a.append(int(count.text))
-s = sum(a)
-print(s)
+b = sum(a)
+print(b)
