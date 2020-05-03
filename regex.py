@@ -8,5 +8,5 @@ for line in fh:
     print(y)
     for i in range(0,len(y)):
         r.append(int(y[i]))
-s=sum(r)
-print(s)
+su=sum(r)
+print(su)
